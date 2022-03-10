@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Quicksand:wght@300&display=swap');
+$color-white: #ffffff;
+$color-black: #252a32;
+$color-light: #f1f5f8;
+$color-red: #d32f2f;
+$color-blue: #148cb8;
+
+$box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+.featured-container{
+  position: relative;
+  top: 325px;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s all;
+  .featured-text-container{
+    p{
+      color:#3F3F3F;
+      font-family: 'Quicksand', sans-serif;
+    }
+    span{
+      .bold-heading{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: normal;
+      }
+      .normal-heading{
+        font-family: 'Barlow', sans-serif;
+      }
+    }
+  }
+  .featured-button-group{
+    display: flex;
+    color:#3F3F3F;
+    button{
+      display: flex;
+      i{
+        transition: 0.5s all;
+      }
+    }
+    button:hover{
+      i{
+        margin-left: 15px;
+      }
+    }
+  }
+}
+body {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: $color-black;
+  background: $color-white;
+}
+.div-main{
+  .container {
+    overflow: hidden;
+    max-width: 65rem;
+    width: 100%;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+  }
+}
+
+.div-main {
+  .container {
+    .swiper-container {
+      .swiper-wrapper {
+        .swiper-slide {
+          .card-image {
+            background: $color-white;
+            border: none;
+            outline: none;
+            box-shadow: $box-shadow;
+            border-radius: 2px;
+
+            img {
+              display: block;
+              position: relative;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+
+      .swiper-pagination {
+        &-bullet {
+          opacity: 0.8;
+          background: $color-black;
+          &-active {
+            background: $color-white;
+          }
+        }
+      }
+      .swiper-controll{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        top: 35px;
+        .swiper-buttons{
+          display: flex;
+          grid-gap: 35px;
+        }
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+        background-image: none;
+        background-size: 0;
+        background-repeat: no-repeat;
+        background-position: 0;
+
+        .arrow-icon {
+          font-size: 40px !important;
+          color: $color-white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Manrope:wght@200&display=swap');
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url('../../Images/Header/background.webp');
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-size: cover;
+    height: 1000px;
+    color:white;
+    font-family: bw;
+    nav{
+        position: relative;
+        top: -325px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .nav-item-first{
+            position: fixed;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 35px;
+            .item{
+                svg{
+                    transition: 0.3s;
+                    cursor: pointer;
+                }
+                svg:hover{
+                    transform: rotate(90deg);
+                }
+            }
+            .item-ul{
+                display: flex;
+                justify-content: space-around;
+                list-style-type: none;
+                grid-gap: 15px;
+                li{
+                    a{
+                        text-decoration: none;
+                        color:white;
+                    }
+                    cursor: pointer;
+                }
+                .fadeToggle{
+                    visibility: hidden;
+                }
+            }
+        }
+        .nav-item-second{
+            margin-top: 75px;
+            display: flex;
+            justify-content: center;
+            h1{
+                font-size: 20vw;
+            }
+        }
+        .propertios-container{
+            height:1100px;
+            width: 100%;
+            display: flex;
+            display: none;
+            justify-content: center;
+            background-color: white;
+            span{
+                position: relative;
+                top:380px;
+                display: flex;
+                justify-content: center;
+                p{
+                    color:black;
+                }
+            }
+        }
+    }
+    .properties-icon{
+        position: fixed;
+        top:634px;
+        left:1368px;
+        grid-gap: 15px;
+        svg{
+            cursor: pointer;
+            // position: relative;
+        }
+        .properties-icon-paragraph{
+            position: absolute;
+            top:18px;
+            right: 75px;
+            display: none;
+        }
+    }
+    .sidebar{
+        position: fixed;
+        display: flex;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        top:-1px;
+        background:#121212;
+        height: 1000px;
+        width: 100%;
+        color:white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Manrope', sans-serif;
+        font-size: 23px;
+        .sidebar-svg{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            left: 52px;
+            top:15px;
+            width: 90%;
+            i{
+                cursor: pointer;
+            }
+        }
+        .sidebar-lists{
+            position: relative;
+            display: flex;
+            top: 25px;
+            ul{
+                list-style-type: none;
+                li{
+                    a{
+                        text-decoration: none;
+                        color:#8F8F8F;
+                    }
+                }
+            }
+        }
+        .buttons-bar{
+            button{
+                position: relative;
+                left: 22px;
+                top:55px;
+                color:white;
+                font-weight: bold;
+            }
+        }
+        .icons-bar{
+            position: relative;
+            top: 125px;
+            left:34px;
+            display: flex;
+            grid-gap: 15px;
+        }
+        hr{
+            position: relative;
+            top:55px;
+            border:1px solid #373737;
+            width: 100%;      
+            display: flex;
+        }
+    }
+}
+

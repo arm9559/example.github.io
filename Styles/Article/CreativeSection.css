@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
+.creative-section {
+  position: relative;
+  top: 435px;
+  width: 100%;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  padding: 45px;
+}
+.creative-section .about-creative {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  font-size: 75px;
+  top: -435px;
+}
+.creative-section .about-creative hr {
+  background-color: black;
+  color: black;
+  border: 0.5px solid black;
+  width: 50%;
+}
+.creative-section .about-creative .about-creative-item {
+  position: relative;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Rajdhani", sans-serif;
+}
+.creative-section .about-creative .about-creative-item p {
+  cursor: pointer;
+}
+.creative-section .about-creative .about-creative-item button {
+  font-size: 35px;
+  cursor: pointer;
+}
+.creative-section .creative-background {
+  background: url("../../Images/Main/Article/CreativeSection/creative_background.webp");
+  background-size: cover;
+  height: 1400px;
+  width: 80%;
+}

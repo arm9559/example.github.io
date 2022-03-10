@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1024px) {
+  .integrity-section {
+    position: relative;
+    top: -75px !important;
+  }
+}
+@media only screen and (max-width: 735px) {
+  .integrity-section {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}

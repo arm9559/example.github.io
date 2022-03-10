@@ -1,0 +1,17 @@
+@media only screen and(max-width:1024px){
+    .header-bottom-section{
+        position: relative;
+        top:-185px;
+        .header-bottom-section-title{
+            h4{
+                font-size: 25px !important;
+                text-align: center !important;
+            }
+        }
+        .header-bottom-section-text{
+            p{
+                font-size: 25px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+@media only screen and (max-width: 375px) {
+  main {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    position: relative !important;
+    top: -504px !important;
+  }
+  main article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    opacity: 1 !important;
+  }
+  main article .header-bottom-section {
+    opacity: 1 !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  main article .header-bottom-section .header-bottom-section-title h4 {
+    font-size: 25px !important;
+  }
+  main article .header-bottom-section .header-bottom-section-text {
+    width: 50% !important;
+  }
+  main article .header-bottom-section .header-bottom-section-text p {
+    font-size: 15px !important;
+  }
+  main .integrity-section {
+    opacity: 1 !important;
+  }
+  main .featured-container {
+    opacity: 1 !important;
+  }
+  main .about-developing-container {
+    top: -15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .featured-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .featured-container .div-main .container {
+    max-width: 23rem;
+  }
+}

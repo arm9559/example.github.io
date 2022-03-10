@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+.integrity-section{
+    position: relative;
+    top: 175px;
+    width: 100%;
+    display: flex;
+    grid-gap: 25px;
+    align-items: center;
+    opacity: 0;
+    transition: 2s all;
+    .integrity-image-container{
+        width: 60%;
+    }
+    .integrity-text-container{
+        transform: scaleY(1);
+        transition: 0.1s;
+        .title-heading-span{
+            .title-heading-first{
+                font-family: 'Fredoka', sans-serif;
+            }
+            .title-heading-second{
+                font-family: 'Fredoka', sans-serif;
+            }
+            button{
+                margin-top: 35px;
+                display: flex; 
+                align-items: center; 
+                justify-content: center;
+                grid-gap: 15px;
+                i{
+                    transition: 0.5s;
+                }
+            }
+            button:hover{
+                i{
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}

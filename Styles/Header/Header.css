@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Manrope:wght@200&display=swap");
+header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-image: url("../../Images/Header/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  color: white;
+  font-family: bw;
+}
+header nav {
+  position: relative;
+  top: -325px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+header nav .nav-item-first {
+  position: fixed;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 35px;
+}
+header nav .nav-item-first .item svg {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+header nav .nav-item-first .item svg:hover {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+header nav .nav-item-first .item-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+  grid-gap: 15px;
+}
+header nav .nav-item-first .item-ul li {
+  cursor: pointer;
+}
+header nav .nav-item-first .item-ul li a {
+  text-decoration: none;
+  color: white;
+}
+header nav .nav-item-first .item-ul .fadeToggle {
+  visibility: hidden;
+}
+header nav .nav-item-second {
+  margin-top: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header nav .nav-item-second h1 {
+  font-size: 20vw;
+}
+header nav .propertios-container {
+  height: 1100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+}
+header nav .propertios-container span {
+  position: relative;
+  top: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header nav .propertios-container span p {
+  color: black;
+}
+header .properties-icon {
+  position: fixed;
+  top: 634px;
+  left: 1368px;
+  grid-gap: 15px;
+}
+header .properties-icon svg {
+  cursor: pointer;
+}
+header .properties-icon .properties-icon-paragraph {
+  position: absolute;
+  top: 18px;
+  right: 75px;
+  display: none;
+}
+header .sidebar {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  top: -1px;
+  background: #121212;
+  height: 1000px;
+  width: 100%;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-size: 23px;
+}
+header .sidebar .sidebar-svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  left: 52px;
+  top: 15px;
+  width: 90%;
+}
+header .sidebar .sidebar-svg i {
+  cursor: pointer;
+}
+header .sidebar .sidebar-lists {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 25px;
+}
+header .sidebar .sidebar-lists ul {
+  list-style-type: none;
+}
+header .sidebar .sidebar-lists ul li a {
+  text-decoration: none;
+  color: #8F8F8F;
+}
+header .sidebar .buttons-bar button {
+  position: relative;
+  left: 22px;
+  top: 55px;
+  color: white;
+  font-weight: bold;
+}
+header .sidebar .icons-bar {
+  position: relative;
+  top: 125px;
+  left: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 15px;
+}
+header .sidebar hr {
+  position: relative;
+  top: 55px;
+  border: 1px solid #373737;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

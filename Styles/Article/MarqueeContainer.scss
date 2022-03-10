@@ -1,0 +1,22 @@
+.marquee-section{
+    position: relative;
+    top:330px;
+    background-color: transparent;
+    opacity: 0;
+    width: 100% !important;
+    marquee{
+        height: 400px;
+        animation-name: marquee;
+        p{
+            font-size: 140px;
+            background-color: black;
+            background-clip: text;
+            color:white;
+        }
+    }
+}
+
+@keyframes marquee {
+    0% { left: 0; }
+    100% { left: -200%; }
+  }

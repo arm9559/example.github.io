@@ -1,0 +1,37 @@
+.marquee-section {
+  position: relative;
+  top: 330px;
+  background-color: transparent;
+  opacity: 0;
+  width: 100% !important;
+}
+.marquee-section marquee {
+  height: 400px;
+  -webkit-animation-name: marquee;
+          animation-name: marquee;
+}
+.marquee-section marquee p {
+  font-size: 140px;
+  background-color: black;
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: white;
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}

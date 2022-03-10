@@ -1,0 +1,12 @@
+@media only screen and(max-width:1024px){
+    .integrity-section{
+        position: relative;
+        top: -75px !important;
+    }
+}
+@media only screen and(max-width:735px){
+    .integrity-section{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
